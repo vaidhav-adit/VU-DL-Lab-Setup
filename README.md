@@ -13,8 +13,8 @@ sudo apt install git
 
 ### 2️⃣ Clone the Repository
 ```bash
-git clone [https://github.com/InfinityDancer/MML_lab_VU_.git](https://github.com/InfinityDancer/MML_lab_VU_.git)
-cd MML_lab_VU_
+git clone [https://github.com/vaidhav-adit/VU-DL-Lab-Setup.git](https://github.com/vaidhav-adit/VU-DL-Lab-Setup.git)
+cd VU-DL-Lab-Setup
 ```
 
 **If the above steps did not work you can manually clone the repo by just downloading it as a ZIP file.**
@@ -36,8 +36,6 @@ python3 -m venv tensorflow_env
 ```bash
 source tensorflow_env/bin/activate
 ```
-
-In the terminal, now enter the `VU-DL-Lab-Setup` folder you just cloned.
 
 **Install dependencies:**
 ```bash
