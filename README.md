@@ -1,10 +1,11 @@
 # VU-DL-Lab-Setup
 
-🚀 Project Setup Guide
+## 🚀 **Setup Guide**
 
-This project supports both TensorFlow and PyTorch.
-⚠️ Do not install both frameworks in the same virtual environment.
-Create separate environments and select the appropriate one in Jupyter.
+This project supports **both TensorFlow and PyTorch**.  
+⚠️ **Do not install both frameworks in the same virtual environment.**  
+Create **separate environments** and select the appropriate one in Jupyter.
+
 
 1️⃣ Install Git
 sudo apt update
@@ -14,16 +15,20 @@ sudo apt install git
 git clone https://github.com/InfinityDancer/MML_lab_VU_.git
 cd MML_lab_VU_
 
+**If the above steps did not work you can manually clone the repo by just dowmloading it as a ZIP file.**
+
 🧪 Environment Setup
 
 Choose one of the following options based on the framework you want to use.
 
 🔶 Option A: TensorFlow Environment
-Create a virtual environment
+Create a virtual environment: 
 python3 -m venv tensorflow_env
 
-Activate the environment
+Activate the environment:
 source tensorflow_env/bin/activate
+
+In the terminal, now enter the VU-DL-Lab-Setup folder you just cloned
 
 Install dependencies
 pip install --upgrade pip
