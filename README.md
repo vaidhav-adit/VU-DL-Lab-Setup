@@ -83,3 +83,10 @@ python -m ipykernel install --user --name=pytorch_env --display-name "Python (py
 4. Select the appropriate kernel we just created: `Python (tensorflow_env)` for TensorFlow OR `Python (pytorch_env)` for PyTorch
 
 **After completion you are good to go!**
+
+# Lab 1:
+In this lab the following concepts are covered -> 
+1. **Tensor Fundamentals:** Establishes the core multi-dimensional data structure of Deep Learning, detailing key attributes such as rank, shape, and float precision.
+2. **Critical Operations:** Covers essential tensor manipulations—including reshaping, flattening, and dimension broadcasting—to effectively structure data for neural network layers.
+3. **Data Pipelines:** Demonstrates the construction of robust pipelines utilizing DataLoader for efficient batching, shuffling, and normalization of the MNIST dataset.
+4. **Framework Agnostic:** Emphasizes universal principles of tensor manipulation and preprocessing that are implemented in PyTorch but are equally essential for TensorFlow workflows.
