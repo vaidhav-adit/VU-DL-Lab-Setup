@@ -14,7 +14,8 @@ sudo apt install git
 ### 2️⃣ Clone the Repository
 ```bash
 git clone [https://github.com/vaidhav-adit/VU-DL-Lab-Setup.git](https://github.com/vaidhav-adit/VU-DL-Lab-Setup.git)
-cd VU-DL-Lab-Setup
+cd VU-DL-Lab
+cd Setup
 ```
 
 **If the above steps did not work you can manually clone the repo by just downloading it as a ZIP file.**
